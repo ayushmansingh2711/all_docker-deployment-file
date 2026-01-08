@@ -19,3 +19,18 @@ docker run -d -p 3001:80 react-ts-app
 
  
 docker run -d -p 8080:80 static-site
+
+
+
+## 
+Summary Table
+
+App Type  	Docker   Image	Port
+
+
+React JS	  node +   nginx	3000
+
+React TS  	node +   nginx	3001
+
+
+Static Site	nginx only	8080
